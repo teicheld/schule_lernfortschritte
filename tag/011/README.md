@@ -1,5 +1,6 @@
-Questions and Exercises: Object-Oriented Programming Concepts
-Questions
+## Questions and Exercises: Object-Oriented Programming Concepts
+
+### Questions
 
     Real-world objects contain ___ and ___.
     A software object's state is stored in ___.
@@ -11,7 +12,7 @@ Questions
     A namespace that organizes classes and interfaces by functionality is called a ___.
     The term API stands for ___?
 
-Exercises
+### Exercises
 
     Create new classes for each real-world object that you observed at the beginning of this trail. Refer to the Bicycle class if you forget the required syntax.
     For each new class that you've created above, create an interface that defines its behavior, then require your class to implement it. Omit one or two methods and try compiling. What does the error look like?
