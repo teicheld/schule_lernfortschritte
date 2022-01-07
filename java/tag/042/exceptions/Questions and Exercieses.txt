@@ -1,0 +1,22 @@
+## Task: 
+
+Add a readList method to ListOfNumbers.java. This method should read in int values from a file, print each value, and append them to the end of the vector. You should catch all appropriate errors. You will also need a text file containing numbers to read in.
+
+### My solution
+
+readList(Sting[] filename) {
+	IntergerList list1 = new IntergerList();
+	String[] buffer = new String();
+	try 
+	{
+		FileReader file = new FileReader();
+		while ((buffer = file.nextLine()) != null ) {
+			list1.add(buffer);
+		}
+	} catch (FileNotFoundException e)
+	{
+		System.out.println("file " + filename + " does not exist.");
+		System.out.println(e);
+	}
+}
+

@@ -1,0 +1,19 @@
+Modify the following cat method so that it will compile.
+
+public static void cat(File file) {
+    RandomAccessFile input = null;
+    String line = null;
+
+    try {
+        input = new RandomAccessFile(file, "r");
+        while ((line = input.readLine()) != null) {
+            System.out.println(line);
+        }
+        return;
+    } finally {
+        if (input != null) {
+            input.close();
+        }
+    }
+}
+
